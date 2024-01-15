@@ -12,6 +12,11 @@ function App() {
   <>
       <BrowserRouter>
       <Header/>
+      <Routes>
+        {/* <Route exact path ='/' element ={}/> */}
+
+        <Route exact path ='/allHadith' element ={<AllHadiths/>}/>
+      </Routes>
 
       <Footer/>
 
