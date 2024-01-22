@@ -16,6 +16,25 @@ function AllHadith(){
         getAllHadith();
         
     },[]);
-}
+
+    return(
+        <div>
+            <div
+          style={{
+            display:"flex",
+            flexFlow:"row",
+            flexWrap: "wrap",
+            padding: "4rem"
+          }}>
+            {showItems && results.map((item,index)=>
+            <Item key ={index} item ={item}/>)}
+            </div>
+        </div>
+            
+        );
+    }
+
+
+
 
 export default AllHadith;
