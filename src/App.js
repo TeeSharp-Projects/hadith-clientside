@@ -16,7 +16,7 @@ function App() {
       <Routes>
         {/* <Route exact path ='/' element ={}/> */}
 
-        <Route exact path ='/allHadith' element ={<AllHadiths/>}/>
+        <Route exact path ='/' element ={<AllHadiths/>}/>
       </Routes>
 
       <Footer/>

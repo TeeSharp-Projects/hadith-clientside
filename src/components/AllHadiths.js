@@ -11,7 +11,7 @@ function AllHadiths(){
     useEffect(()=>{
         const getAllHadith = async () => {
             let allHadithApi = await axios.get(`${process.env.REACT_APP_SERVER}/hadithapi`);
-            // console.log('inside useEffect AllHadiths', allHadithApi.data);
+            
             setResults(allHadithApi.data);
             setShowItems(true);
 
