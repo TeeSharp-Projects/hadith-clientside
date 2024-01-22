@@ -1,7 +1,7 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
-function item(){
+function Item(){
     return(
         <Card style={{ width: "34rem",margin:"20px" }}>
       <Card.Img style ={{height:"200px",}}variant="top" src="https://tse2.mm.bing.net/th?id=OIP.YXo5f7XYkYBGi5jCEVuRHQHaLJ&pid=Api&P=0" />
