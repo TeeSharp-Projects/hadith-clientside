@@ -1,4 +1,4 @@
-import Button from 'react-bootstrap/Button';
+// import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
 function Item(props){
@@ -10,7 +10,7 @@ function Item(props){
       <Card.Title>Chapter: {props.item.chapter.chapterEnglish}</Card.Title>
       <Card.Title>Narrator: {props.item.englishNarrator}</Card.Title>
         <Card.Text className = "hadithScroll">{props.item.hadithEnglish}</Card.Text>
-        <Button  className="buttons"variant="primary" onClick={()=>{addToFav(props.item)}}>Add to favourite</Button>
+        {/* <Button  className="buttons"variant="primary" onClick={()=>{addToFav(props.item)}}>Add to favourite</Button> */}
       </Card.Body>
     </Card>
     );
