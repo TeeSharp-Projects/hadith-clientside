@@ -7,8 +7,8 @@ function Header () {
         <Navbar bg="dark" variant="dark">
         <Navbar.Brand>Hadith by: Azeezah Bidmos</Navbar.Brand> 
         <Link href='/about'>About</Link>
-        <Link href='/allHadith'>All Hadiths</Link>
-        <Link href='/'>Favourites</Link>        
+        <Link to ='/allHadith'>All Hadiths</Link>
+        <Link to ='/'>Favourites</Link>        
         
       </Navbar>
   
